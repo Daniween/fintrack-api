@@ -6,4 +6,5 @@ function isValidAmount(amount) {
   return typeof amount === "number" && amount >= 0;
 }
 
+//com
 module.exports = { isValidName, isValidAmount };
