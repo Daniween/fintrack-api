@@ -45,7 +45,7 @@ jobs:
         with:
           node-version: "22"
           cache: "npm" # NOUVEAU
-      - run: npm ci --omit=dev # Seulement les dépendances de prod
+      - run: npm ci --omit=dev # Seulement les dépendances de production
       - run: npm run build
       - name: Résumé
         run: |
